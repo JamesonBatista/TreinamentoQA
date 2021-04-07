@@ -8,6 +8,7 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = {"features"},
+        publish = true,
         glue = {"steps"},
         snippets = CucumberOptions.SnippetType.CAMELCASE
 )
