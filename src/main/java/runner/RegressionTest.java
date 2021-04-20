@@ -9,7 +9,8 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = {"features"},
         snippets = CucumberOptions.SnippetType.CAMELCASE,
-        glue = {"steps"}
+        glue = {"steps"},
+        publish = true
 )
 public class RegressionTest {
 }
